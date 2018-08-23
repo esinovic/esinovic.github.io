@@ -27,8 +27,8 @@
  }
 
  .circle {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     font-size: 50px;
     color: #fff;
@@ -141,7 +141,7 @@
 
   #buzzwords{
     height:50vh; 
-    background-image: url('../resources/bluesl.jpg');
+    background-image: url('../resources/sanAnSLFull.jpg');
     color: black;
     font-family: 'Poiret One', cursive;
   }
