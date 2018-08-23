@@ -1,0 +1,147 @@
+/* #mainPageButton {
+    background-color: rgb(255, 255, 255);
+}
+
+#mainPageButton:hover {
+    background:linear-gradient(rgb(235, 8, 8) 100%,red 50%, red);
+} */
+
+#mainPageButton {
+    -webkit-transition:background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+    text-align: center;
+    background: #273c75;
+    height:100vh;
+ }
+ 
+ #mainPageButton:hover {
+     background:#dfe6e9;
+ }
+
+ .anchor{
+   position: relative;
+  display: block;
+  top: -200px;
+  visibility: hidden;
+ }
+
+ .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    /* line-height: 500px; */
+    text-align: center;
+    vertical-align: middle;
+    /* position: relative; */
+    margin-left: 30%;
+    /* display:inline-block; */
+    /* margin-top: 3em; */
+  }
+
+  #segmentButtonHeader {
+      margin-top: 2em;
+  }
+
+  /* Style the header */
+  #header {
+    padding: 10px 16px;
+    color: #e84118;
+    background-color: black;
+    /* font-family:'Times New Roman', Times, serif; */
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .button {
+      background-color: transparent;
+      font-family: 'Josefin Sans', sans-serif;
+      -webkit-transition:color 0.0s linear;
+      -moz-transition: color 0.0s linear;
+      -o-transition: color 0.0s linear;
+  }
+
+  .button:hover{
+    background-color: transparent;
+  }
+
+  .button_visited{
+    background-color: transparent;
+  }
+
+  .button:focus{
+    background-color: transparent;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa-twitter {
+    color: white;
+  }
+
+  #desktopMenu {
+    -webkit-transition:color 0.0s linear;
+    -moz-transition: color 0.0s linear;
+    -o-transition: color 0.0s linear;
+  }
+
+  #desktopMenu:hover{
+    color:#e84118;
+  }
+
+  #secondaryButtons {
+    -webkit-transition:color 0.0s linear;
+    -moz-transition: color 0.0s linear;
+    -o-transition: color 0.0s linear;
+  }
+
+  #secondaryButtons:hover{
+    color:#e84118;
+  }
+
+  #mobileMenu{
+    display:none;
+  }
+
+  #firstButton{
+    display:inline-block; 
+    border-right:1px solid white;
+  }
+
+  @media(max-width: 1200px){
+    #desktopMenu {
+      display:none;
+    }
+    #mobileMenu{
+      display:inline-block;
+      color: white;
+    }
+    #firstButton{
+      border-right: none;
+    }
+    .circle{
+      display: none;
+    }
+  }
+
+
+  #buzzwords{
+    height:50vh; 
+    background-image: url('../resources/bluesl.jpg');
+    color: black;
+    font-family: 'Poiret One', cursive;
+  }
